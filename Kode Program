@@ -1,0 +1,17 @@
+print ("=======")
+print ("Biodata")
+print ("=======")
+ 
+nama = input("Nama: ")
+nama_panggilan = input("Nama Panggilan: ")
+nim = input("Nim: ")
+tempat_lahir = input ("Tempat lahir: ")
+umur = input ("Umur: ")
+alamat = input ("Alamat: ")
+nomor_telpon = input ("Nomor Telpon: ")
+
+print ("")
+print ("")
+print ("Asalamualaikum")
+print ("")
+print ("Perkenalkan nama saya %s, Biasa di panggil %s, Nim Saya %s, Saya lahir di %s, Umur saya %s, Saya tinggal di %s, nomor telpon %s" % (nama, nama_panggilan, nim, tempat_lahir, umur, alamat, nomor_telpon))
